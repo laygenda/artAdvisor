@@ -233,17 +233,27 @@ lebih mengeksplorasi mimpi, imajinasi, dan alam bawah sadar.
 
 ## 8. Screenshots
 
-Screenshot aplikasi dan contoh percakapan dapat disimpan pada folder screenshots/:
+Berikut adalah dokumentasi tampilan dan pengujian Galeria ArtAdvisor.
 
-```text
+### Main Interface
 
-Contoh tampilan:
-<img width="1919" height="958" alt="Tampilan Utama Chatbot" src="https://github.com/user-attachments/assets/9c85555f-f759-4ff5-ac31-d08ad4742578" />
-<img width="1600" height="806" alt="Pengujian Fungsi Utama (Core Functions)" src="https://github.com/user-attachments/assets/d2269c40-2532-4e14-81a1-9f90ac771ec7" />
-<img width="1600" height="802" alt="Pengujian Perintah Khusus (Commands)" src="https://github.com/user-attachments/assets/938190f4-8dcd-4baa-a55c-9ab96e7a9144" />
-<img width="1600" height="806" alt="Pengujian Batasan (Red Teaming  Guardrails)" src="https://github.com/user-attachments/assets/9a8e2c96-9d0c-43f7-85f6-ddfa546be84c" />
-<img width="1600" height="803" alt="Pengujian Penyimpanan File" src="https://github.com/user-attachments/assets/086d3ca1-3459-4f0d-a800-cfb7f35dd0ec" />
+![Tampilan Utama Chatbot](https://github.com/user-attachments/assets/9c85555f-f759-4ff5-ac31-d08ad4742578)
 
+### Core Functions Testing
+
+![Pengujian Fungsi Utama (Core Functions)](https://github.com/user-attachments/assets/d2269c40-2532-4e14-81a1-9f90ac771ec7)
+
+### Commands Testing
+
+![Pengujian Perintah Khusus (Commands)](https://github.com/user-attachments/assets/938190f4-8dcd-4baa-a55c-9ab96e7a9144)
+
+### Red Teaming & Guardrails Testing
+
+![Pengujian Batasan (Red Teaming & Guardrails)](https://github.com/user-attachments/assets/9a8e2c96-9d0c-43f7-85f6-ddfa546be84c)
+
+### Conversation History Storage
+
+![Pengujian Penyimpanan File](https://github.com/user-attachments/assets/086d3ca1-3459-4f0d-a800-cfb7f35dd0ec)
 
 ---
 
