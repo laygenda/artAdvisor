@@ -8,16 +8,15 @@ class ArtAdvisorClient:
         
         self.client = Groq(api_key=Config.GROQ_API_KEY)
         self.model = Config.MODEL_NAME
-        self.temperature = Config.TEMPERATURE
-        self.max_tokens = Config.MAX_TOKENS
 
-    def generate_stream(self, messages):
+    # FITUR BONUS: Menerima parameter kontrol dinamis
+    def generate_stream(self, messages, temperature, max_tokens):
         try:
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=messages,
-                temperature=self.temperature,
-                max_tokens=self.max_tokens,
+                temperature=temperature,
+                max_tokens=max_tokens,
                 stream=True
             )
             

@@ -17,8 +17,9 @@ class ArtAdvisorBot:
 
         return {"action": "chat", "messages": messages}
 
-    def generate_response(self, messages):
-        return self.client.generate_stream(messages)
+    # FITUR BONUS: Meneruskan parameter dinamis ke client
+    def generate_response(self, messages, temperature, max_tokens):
+        return self.client.generate_stream(messages, temperature, max_tokens)
 
     def save_assistant_response(self, content):
         self.history.add_assistant_message(content)
